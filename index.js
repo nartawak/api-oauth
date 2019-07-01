@@ -22,7 +22,7 @@ const checkJwt = jwt({
   }),
   
   // Validate the audience and the issuer.
-  audience: 'https://api-oauth',
+  audience: 'https://dev-xh07lp0k.eu.auth0.com/api/v2/',
   issuer: `https://dev-xh07lp0k.eu.auth0.com/`,
   algorithms: ['RS256']
 });
